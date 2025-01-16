@@ -13,7 +13,7 @@ body{
     align-content: center;
 }
 
-.grid div{
+.grid div {
     border: solid rgb(68, 65, 65) 2px;
     width: 100px;
     height: 100px;
@@ -23,6 +23,12 @@ body{
     line-height: 100px;
     font-weight: bold;
     font-size: 52px;
+    color: transparent; /* Hide text by default */
+}
+
+.grid div.filled {
+    color: black; /* Make the number visible when filled */
+    background-color: rgb(238, 228, 218); /* Lighter background for numbers */
 }
 
 .scoreContainer {
