@@ -6,4 +6,3 @@ This website contains frontend for Mygym website, and technologies used are
 
 * JS(BOOTSTRAP)
 
-<br>
